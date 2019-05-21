@@ -32,4 +32,4 @@ Section to display all the favorited books - updates correctly and is visually a
 There is some button that allows the user to favorite and unfavorite books in the searched list and in the favorite list | 5
 Hosted and deployed on firebase | 5
 Your page looks really good. This is subjective, so wow us. | 10
-Using any website besides the API documentation | -30
+Using any website besides the API documentation as a resource during the test | -30
