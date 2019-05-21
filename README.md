@@ -1,6 +1,6 @@
 # CS 260  Midterm 1
 
-For this midterm you will have 3 hours to complete the following prompt.  
+For this midterm you will have 3 hours (in class - Thursday 12pm-3pm - anything submitted after this time will not go towards your points earned) to complete the following prompt.  
 
 You will be creating a simplified Goodreads application using Vue.  If you have never used Goodreads before it is a place for users to record and review books they have read and would like to read.  You will be using the OpenLibrary API - which provides lots of information about different books and allows you to search keywords by different fields.  
 
@@ -9,6 +9,7 @@ You will be required to:
 - allow the user to type a word/phrase/title of book into a search field and on submit, display all the results
 - for each book found, display the title, author, publish date, cover image, and an option to "favorite" that book
 - In a separate location on the page (or on another page) display all the "favorited" books.  If the user unfavorites a book in the list, remove it from the list
+- Host and deploy your site on firebase
 
 
 Some API calls that will helpful:
@@ -28,6 +29,7 @@ Create a web page made with Vue | 20
 Uses the specified API to retrieve the correct data on search | 10
 Displays the required information about the book in a visually asthethic manner | 30
 Section to display all the favorited books - updates correctly and is visually appealing | 20
-There is some button that allows the user to favorite and unfavorite books in the searched list and in the favorite list | 10
+There is some button that allows the user to favorite and unfavorite books in the searched list and in the favorite list | 5
+Hosted and deployed on firebase | 5
 Your page looks really good. This is subjective, so wow us. | 10
 Using any website besides the API documentation | -30
