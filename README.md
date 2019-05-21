@@ -7,6 +7,7 @@ You will be creating a simplified Goodreads application using Vue.  If you have 
 You will be required to:
 - create a webpage using Vue that allows the user to search for a specific book or books
 - allow the user to type a word/phrase/title of book into a search field and on submit, display all the results
+- display a loading symbol or screen while data is loading
 - for each book found, display the title, author, publish date, cover image, and an option to "favorite" that book
 - In a separate location on the page (or on another page) display all the "favorited" books.  If the user unfavorites a book in the list, remove it from the list
 - Host and deploy your site on firebase
