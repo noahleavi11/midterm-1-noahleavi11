@@ -1,0 +1,17 @@
+.parent{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-fluid{
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 25px;
+}
+
+.title, .author, .date, .isbn {
+  background-color: #f1f1f1;
+  margin: 2.5px 3px;
+}
