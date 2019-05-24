@@ -21,39 +21,21 @@
       <div v-else>
         <div v-for="book in current.docs" class="parent">
           <div class="container-fluid">
-            <div v-if="truth()">
-              <!-- ignore -->
-              <p>hey there</p>
+            <div v-if="book.hasOwnProperty('thumbnail')">
+              <p>img: <img v-bind:src="book.img" alt=""> </p>
             </div>
-            <div else>
-              <div class="title">
-                <p>Title: {{book.title}}</p>
-              </div>
+            <div v-if="book.hasOwnProperty('title')">
+              <p>Title: {{book.title}}</p>
             </div>
-            <!-- <div v-if="book.isbn.length === 0">
-              <!-- ignore
+            <div v-if="book.hasOwnProperty('isbn')">
+              <p>ISBN: {{book.isbn[0]}}</p>
             </div>
-            <div v-else>
-              <div class="isbn">
-                <p>ISBN: {{book.isbn}}</p>
-              </div>
+            <div v-if="book.hasOwnProperty('author_name')">
+              <p>Author: {{book.author_name[0]}}</p>
             </div>
-            <div v-if="book.author_name.length === 0">
-              <!-- ignore
+            <div v-if="book.hasOwnProperty('publish_date')">
+              <p>Publish Date: {{book.publish_date[0]}}</p>
             </div>
-            <div v-else>
-              <div class="author">
-                <p>Author: {{book.author_name}}</p>
-              </div>
-            </div>
-            <div v-if="book.publish_date.length === 0">
-              <!-- ignore
-            </div>
-            <div v-else>
-              <div class="date">
-                <p>Publish Date: {{book.publish_date[0]}}</p>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
